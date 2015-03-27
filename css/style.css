@@ -1,0 +1,101 @@
+/* navbar */
+.navbar-default {
+	background: #BDC1E5;
+    background-color: #BDC1E5;
+    border-color: #E7E7E7;
+    margin-top: -50px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/* title */
+.navbar-default .navbar-brand {
+	font-size: 20px;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #686882;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+	font-size: 18px;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #686882;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #686882;
+    background-color: #EBEBFF;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #686882;
+    background-color: #EBEBFF;
+}
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #EBEBFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #686882;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #686882;
+    }
+}
+
+/* */
+.container {
+	margin-top: 50px;
+}
+
+.container-fluid {
+	margin-top: 50px;
+	width: 1500px;
+}
+
+.container-fluid > .jumbotron {
+	font-weight: bold;
+	padding: 100px;
+	background: #FBFBFF;
+	height: 600px;
+	padding-top: 100px;
+}
+
+.container-fluid > .jumbotron > .img-rounded {
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 7px solid #3B3B4B;
+	border-radius: 25px;
+}
+
+.container-fluid > .jumbotron > .container h1 {
+	font-size: 65px;
+	color: #8588B1;
+	text-align: center;
+}
+
+.container-fluid > .jumbotron > .container h3 {
+	font-size: 30px;
+	color: #BDC1E5;
+	text-align: center;
+	padding-bottom: 100px;
+}
