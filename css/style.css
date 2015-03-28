@@ -1,3 +1,9 @@
+/* ---NAVIGATION BAR--- */
+
+/* align top of navbar to top of page */
+.navbar-fixed-top > .container {
+	margin-top: 50px;
+}
 /* navbar */
 .navbar-default {
 	background: #BDC1E5;
@@ -38,7 +44,6 @@
     color: #686882;
     background-color: #EBEBFF;
 }
-
 /* mobile version */
 .navbar-default .navbar-toggle {
     border-color: #E7E7E7;
@@ -60,25 +65,23 @@
     }
 }
 
-/* */
-.container {
-	margin-top: 50px;
-}
+/* ---JUMBOTRON--- */
 
-.container-fluid {
+/* dimensions of jumbotron container */
+.container {
 	margin-top: 100px;
 	width: 1500px;
 }
-
-.container-fluid > .jumbotron {
+/* jumbotron attributes */
+.container > .jumbotron {
 	font-weight: bold;
 	padding: 100px;
 	background: #FBFBFF;
 	height: 600px;
 	padding-top: 100px;
 }
-
-.container-fluid > .jumbotron > .img-rounded {
+/* image attributes */
+.container > .jumbotron > .img-rounded {
 	vertical-align: middle;
 	display: block;
 	margin-left: auto;
@@ -86,16 +89,21 @@
 	border: 7px solid #3B3B4B;
 	border-radius: 25px;
 }
-
-.container-fluid > .jumbotron > .container h1 {
+/* big text */
+.container > .jumbotron > h1 {
 	font-size: 65px;
 	color: #8588B1;
 	text-align: center;
 }
-
-.container-fluid > .jumbotron > .container h3 {
+/* small text */
+.container > .jumbotron > h3 {
 	font-size: 30px;
 	color: #BDC1E5;
 	text-align: center;
 	padding-bottom: 100px;
+}
+
+/* ---FOOTER--- */
+.navbar-fixed-bottom > .container {
+	margin-top: 0px;
 }
