@@ -102,8 +102,20 @@
 	text-align: center;
 	padding-bottom: 100px;
 }
+/* down arrow */
+.container > .jumbotron > a {
+	color: #8588B1;
+}
+.container > .jumbotron > a:hover {
+	color: #BDC1E5;
+}
 
 /* ---FOOTER--- */
 .navbar-fixed-bottom > .container {
 	margin-top: 0px;
+}
+
+.navbar-fixed-bottom > .container > .navbar-text > a {
+	color: inherit;
+	text-decoration: none;
 }
