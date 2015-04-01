@@ -35,9 +35,10 @@
     <![endif]-->
   </head>
   
-  <body>
+  <body id="body">
+  	
   	<!-- Navigation Bar -->
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" id="header">
 		<div class="container">
      		<div class="navbar-header">
      			<a class="navbar-brand" href="#">Shadee Barzin</a>
@@ -62,18 +63,50 @@
 	</nav>
 	
 	<!-- Intro and Photo -->
-	<div class="container">
-		<div class="jumbotron text-center">
-			<img class="img-rounded" class="img-responsive" class="center" src="images/shadee.jpeg" alt="ShadeeBarzin" width="250" height="250"> 
-		
+	<div class="jumbotron text-center" id="intro">
+		<div class="container">
+			<img class="img-rounded" class="img-responsive" class="center" src="images/shadee.jpg" alt="ShadeeBarzin" width="270" height="270"> 
 			<h1>Hi! I'm Shadee Barzin.</h1>
-			<h3>Computer Science Student, Sunset Photographer, and Purple Pen Addict</h3>	
+			<h2>Computer Science Student, Sunset Photographer, and Purple Pen Addict</h2>
 			<a href="#"><i class="fa fa-chevron-circle-down fa-5x"></i></a>
 		</div>
 	</div>
 	
+	<!-- About Me -->
+	<div class="jumbotron text-center"  id="about">
+		<div class="container">
+			<h1>About Me</h1>
+			<br>
+			<h2>I am currently an undergrad studying Computer Science at UC Santa Barbara. <br>
+			At UCSB, I am involved in several organizations, including the Society of Women Engineers and Association of Computing Machinery.</h2>
+			<h2>Outside of school, I enjoy photography and swimming. I also love to cook and bake for my housemates and myself.</h2>
+		</div>
+	</div>
+
+	<!-- Experience -->
+	<div class="jumbotron text-center"  id="experience">
+		<div class="container">
+			<h1>Experience</h1>
+			<br>
+			<h2> text goes here </h2>
+		</div>
+	</div>
 	
-	<div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	<!-- Contact -->
+	<div class="jumbotron text-center"  id="contact">
+		<div class="container">
+			<h1>Contact</h1>
+			<br>
+			<a href="mailto:shadeebarzin@gmail.com" class="btn btn-default"> Email <i class="fa fa-envelope-square"></i></a>
+			<a href="https://www.linkedin.com/in/shadeebarzin" class="btn btn-default">LinkedIn <i class="fa fa-linkedin-square"></i></a>
+			<a href="https://github.com/shadeebarzin" class="btn btn-default">GitHub <i class="fa fa-github-square"></i></a>
+			<br> <a href="https://twitter.com/shadeebarzin" class="btn btn-default">Twitter <i class="fa fa-twitter-square"></i></a>
+			<a href="http://heyitsshaday.vsco.co/" class="btn btn-default">Photography <i class="fa fa-camera-retro"></i></a>
+		</div>
+	</div>
+
+<!-- Footer -->	
+	<div class="navbar navbar-default navbar-static-bottom" role="navigation" id="footer">
 		<div class="container">
 			<div class="navbar-text pull-left">
 				<p>© Shadee Barzin 2015</p>
