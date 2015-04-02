@@ -1,9 +1,11 @@
-/* text font */
+/* --- BODY TEXT --- */
 #body {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: Geneva, "Trebuchet MS", Tahoma, sans-serif;
 }
 
-/* ---NAVIGATION BAR--- */
+
+/* --- NAVIGATION BAR --- */
+
 /* align top of navbar to top of page */
 .navbar-static-top > .container {
 	margin-top: 50px;
@@ -69,12 +71,13 @@
     }
 }
 
-/* ---INTRO--- */
+
+/* --- INTRO --- */
 
 /* background attributes */
 #intro {
-	margin-top: 20px;
-	margin-bottom: 250px;
+	margin-top: 10px;
+	margin-bottom: 150px;
 	background: #FFFFFF;
 }
 /* colored box attributes */
@@ -82,8 +85,7 @@
 	font-weight: bold;
 	padding: 100px;
 	background: #FBFBFF;
-	height: 600px;
-	width: 90%;
+	width: 80%;
 }
 /* image attributes */
 #intro > .container > .img-rounded {
@@ -91,11 +93,12 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border: 5px solid #3B3B4B;
+	border: 6px solid #6E7094;
 	border-radius: 25px;
 }
 /* big text */
 #intro > .container > h1 {
+	margin-top: 40px;
 	font-size: 65px;
 	font-weight: bold;
 	color: #8588B1;
@@ -107,7 +110,7 @@
 	font-weight: bold;
 	color: #BDC1E5;
 	text-align: center;
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 }
 /* down arrow */
 #intro > .container > a {
@@ -117,17 +120,18 @@
 	color: #BDC1E5;
 }
 
-/* ---ABOUT--- */
+
+/* --- ABOUT --- */
 
 /* background attributes */
 #about {
-	background: #FBFBFF;
+	background-image: url(../images/backgrounds/purple_texture.jpg);
 }
 /* inner box attributes */
 #about > .container {
 	margin-top: 70px;
 	margin-bottom: 70px;
-	background: #FBFBFF;
+	background: #FFFFFF;
 }
 /* big text */
 #about > .container > h1 {
@@ -137,57 +141,75 @@
 	color: #787A9F;
 	padding: 5px;
 	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
 }
 /* small text */
 #about > .container > h2 {
 	font-size: 24px;
-	color: #8588B1;
+	color: #9E9DC5;
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
 }
+#about > .container > .row > .col-md-3 > p {
+	font-size: 12px;
+	color: #787A9F;
+}
 
-/* ---EXPERIENCE--- */
+
+/* ---PROJECTS--- */
 
 /* background attributes */
-#experience {
+#projects {
 	background: #FFFFFF;
 }
 /* inner box attributes */
-#experience > .container {
+#projects > .container {
 	margin-top: 70px;
 	margin-bottom: 70px;
 	background: #FFFFFF;
 }
 /* big text */
-#experience > .container > h1 {
+#projects > .container > h1 {
 	width: 350px; /* figure out a way to make this centered */
 	font-size: 55px;
 	font-weight: bold;
 	color: #787A9F;
 	padding: 5px;
 	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
 }
-/* small text */
-#experience > .container > h2 {
+#projects > .container > #proj1 > #aott-desc > h3 {
 	font-size: 24px;
-	color: #8588B1;
-	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
+	color: #9E9DC5;
+	text-align: left;
+	vertical-align: middle;
+}
+/* link attributes */
+#projects > .container > #proj1 > #aott-desc > h3 > a {
+	font-size: 20px;
+	color: #9B9BC2;
+}
+#projects > .container > #proj1 > #aott-desc > h3 > a:hover {
+	color: #BDBDEC;
+	text-decoration: none;
 }
 
-/* ---CONTACT--- */
+
+/* --- CONTACT --- */
 
 /* background attributes */
 #contact {
-	background: #FBFBFF;
+	background-image: url(../images/backgrounds/purple_texture.jpg);
 }
 /* inner box attributes */
 #contact > .container {
 	margin-top: 70px;
 	margin-bottom: 70px;
-	background: #FBFBFF;
+	background: #FFFFFF;
+	padding-bottom: 20px;
 }
 /* big text */
 #contact > .container > h1 {
@@ -197,18 +219,21 @@
 	color: #787A9F;
 	padding: 5px;
 	border: 3px dotted #BDC1E5;
+	margin-left: auto;
+	margin-right: auto;
 }
 /* link attributes */
 #contact > .container > a {
 	font-size: 20px;
-	color: #787A9F;
+	color: #9B9BC2;
 }
 #contact > .container > a:hover {
-	color: #BDC1E5;
+	color: #BDBDEC;
 	text-decoration: none;
 }
 
-/* ---FOOTER--- */
+
+/* --- FOOTER --- */
 
 /* copyright */
 .navbar-static-bottom > .container {
